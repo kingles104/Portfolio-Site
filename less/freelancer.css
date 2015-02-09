@@ -1,0 +1,520 @@
+/* line 4, /Users/atsspare/Projects/personal/clients/katie-portfolio/less/freelancer.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/atsspare\/Projects\/personal\/clients\/katie-portfolio\/less\/freelancer\.less}line{font-family:\000034}}
+body {
+  overflow-x: hidden;
+}
+/* line 8, /Users/atsspare/Projects/personal/clients/katie-portfolio/less/freelancer.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/atsspare\/Projects\/personal\/clients\/katie-portfolio\/less\/freelancer\.less}line{font-family:\000038}}
+p {
+  font-size: 990px;
+}
+/* line 12, /Users/atsspare/Projects/personal/clients/katie-portfolio/less/freelancer.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/atsspare\/Projects\/personal\/clients\/katie-portfolio\/less\/freelancer\.less}line{font-family:\0000312}}
+p.small {
+  font-size: 16px;
+}
+/* line 16, /Users/atsspare/Projects/personal/clients/katie-portfolio/less/freelancer.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/atsspare\/Projects\/personal\/clients\/katie-portfolio\/less\/freelancer\.less}line{font-family:\0000316}}
+a,
+a:hover,
+a:focus,
+a:active,
+a.active {
+  color: #ff0000;
+  outline: none;
+}
+/* line 25, /Users/atsspare/Projects/personal/clients/katie-portfolio/less/freelancer.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/atsspare\/Projects\/personal\/clients\/katie-portfolio\/less\/freelancer\.less}line{font-family:\0000325}}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+/* line 31, /Users/atsspare/Projects/personal/clients/katie-portfolio/less/freelancer.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/atsspare\/Projects\/personal\/clients\/katie-portfolio\/less\/freelancer\.less}line{font-family:\0000331}}
+hr.star-light,
+hr.star-primary {
+  padding: 0;
+  border: none;
+  border-top: solid 5px;
+  text-align: center;
+  max-width: 250px;
+  margin: 25px auto 30px;
+}
+/* line 41, /Users/atsspare/Projects/personal/clients/katie-portfolio/less/freelancer.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/atsspare\/Projects\/personal\/clients\/katie-portfolio\/less\/freelancer\.less}line{font-family:\0000341}}
+hr.star-light:after,
+hr.star-primary:after {
+  content: "\f005";
+  font-family: FontAwesome;
+  display: inline-block;
+  position: relative;
+  top: -0.8em;
+  font-size: 2em;
+  padding: 0 0.25em;
+}
+/* line 52, /Users/atsspare/Projects/personal/clients/katie-portfolio/less/freelancer.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/atsspare\/Projects\/personal\/clients\/katie-portfolio\/less\/freelancer\.less}line{font-family:\0000352}}
+hr.star-light {
+  border-color: white;
+}
+/* line 56, /Users/atsspare/Projects/personal/clients/katie-portfolio/less/freelancer.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/atsspare\/Projects\/personal\/clients\/katie-portfolio\/less\/freelancer\.less}line{font-family:\0000356}}
+hr.star-light:after {
+  background-color: #ff0000;
+  color: white;
+}
+/* line 61, /Users/atsspare/Projects/personal/clients/katie-portfolio/less/freelancer.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/atsspare\/Projects\/personal\/clients\/katie-portfolio\/less\/freelancer\.less}line{font-family:\0000361}}
+hr.star-primary {
+  border-color: #2c3e50;
+}
+/* line 65, /Users/atsspare/Projects/personal/clients/katie-portfolio/less/freelancer.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/atsspare\/Projects\/personal\/clients\/katie-portfolio\/less\/freelancer\.less}line{font-family:\0000365}}
+hr.star-primary:after {
+  background-color: white;
+  color: #2c3e50;
+}
+/* line 70, /Users/atsspare/Projects/personal/clients/katie-portfolio/less/freelancer.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/atsspare\/Projects\/personal\/clients\/katie-portfolio\/less\/freelancer\.less}line{font-family:\0000370}}
+.img-centered {
+  margin: 0 auto;
+}
+/* line 74, /Users/atsspare/Projects/personal/clients/katie-portfolio/less/freelancer.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/atsspare\/Projects\/personal\/clients\/katie-portfolio\/less\/freelancer\.less}line{font-family:\0000374}}
+header {
+  text-align: center;
+  background: #ff0000;
+  color: white;
+}
+/* line 78, /Users/atsspare/Projects/personal/clients/katie-portfolio/less/freelancer.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/atsspare\/Projects\/personal\/clients\/katie-portfolio\/less\/freelancer\.less}line{font-family:\0000378}}
+header .container {
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+/* line 82, /Users/atsspare/Projects/personal/clients/katie-portfolio/less/freelancer.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/atsspare\/Projects\/personal\/clients\/katie-portfolio\/less\/freelancer\.less}line{font-family:\0000382}}
+header img {
+  display: block;
+  margin: 0 auto 20px;
+}
+/* line 87, /Users/atsspare/Projects/personal/clients/katie-portfolio/less/freelancer.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/atsspare\/Projects\/personal\/clients\/katie-portfolio\/less\/freelancer\.less}line{font-family:\0000387}}
+header .intro-text .name {
+  display: block;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 2em;
+}
+/* line 94, /Users/atsspare/Projects/personal/clients/katie-portfolio/less/freelancer.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/atsspare\/Projects\/personal\/clients\/katie-portfolio\/less\/freelancer\.less}line{font-family:\0000394}}
+header .intro-text .skills {
+  font-size: 1.25em;
+  font-weight: 300;
+}
+@media (min-width: 768px) {
+  /* line 103, /Users/atsspare/Projects/personal/clients/katie-portfolio/less/freelancer.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/atsspare\/Projects\/personal\/clients\/katie-portfolio\/less\/freelancer\.less}line{font-family:\00003103}}
+  header .container {
+    padding-top: 200px;
+    padding-bottom: 100px;
+  }
+  /* line 108, /Users/atsspare/Projects/personal/clients/katie-portfolio/less/freelancer.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/atsspare\/Projects\/personal\/clients\/katie-portfolio\/less\/freelancer\.less}line{font-family:\00003108}}
+  header .intro-text .name {
+    font-size: 4.75em;
+  }
+  /* line 111, /Users/atsspare/Projects/personal/clients/katie-portfolio/less/freelancer.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/atsspare\/Projects\/personal\/clients\/katie-portfolio\/less\/freelancer\.less}line{font-family:\00003111}}
+  header .intro-text .skills {
+    font-size: 1.75em;
+  }
+}
+@media (min-width: 768px) {
+  /* line 119, /Users/atsspare/Projects/personal/clients/katie-portfolio/less/freelancer.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/atsspare\/Projects\/personal\/clients\/katie-portfolio\/less\/freelancer\.less}line{font-family:\00003119}}
+  .navbar-fixed-top {
+    padding: 25px 0;
+    -webkit-transition: padding 0.3s;
+    -moz-transition: padding 0.3s;
+    transition: padding 0.3s;
+  }
+  /* line 124, /Users/atsspare/Projects/personal/clients/katie-portfolio/less/freelancer.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/atsspare\/Projects\/personal\/clients\/katie-portfolio\/less\/freelancer\.less}line{font-family:\00003124}}
+  .navbar-fixed-top .navbar-brand {
+    font-size: 2em;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  /* line 131, /Users/atsspare/Projects/personal/clients/katie-portfolio/less/freelancer.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/atsspare\/Projects\/personal\/clients\/katie-portfolio\/less\/freelancer\.less}line{font-family:\00003131}}
+  .navbar-fixed-top.navbar-shrink {
+    padding: 10px 0;
+  }
+  /* line 133, /Users/atsspare/Projects/personal/clients/katie-portfolio/less/freelancer.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/atsspare\/Projects\/personal\/clients\/katie-portfolio\/less\/freelancer\.less}line{font-family:\00003133}}
+  .navbar-fixed-top.navbar-shrink .navbar-brand {
+    font-size: 1.5em;
+  }
+}
+/* line 139, /Users/atsspare/Projects/personal/clients/katie-portfolio/less/freelancer.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/atsspare\/Projects\/personal\/clients\/katie-portfolio\/less\/freelancer\.less}line{font-family:\00003139}}
+.navbar {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+/* line 143, /Users/atsspare/Projects/personal/clients/katie-portfolio/less/freelancer.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/atsspare\/Projects\/personal\/clients\/katie-portfolio\/less\/freelancer\.less}line{font-family:\00003143}}
+.navbar a:focus {
+  outline: none;
+}
+/* line 146, /Users/atsspare/Projects/personal/clients/katie-portfolio/less/freelancer.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/atsspare\/Projects\/personal\/clients\/katie-portfolio\/less\/freelancer\.less}line{font-family:\00003146}}
+.navbar .navbar-nav {
+  letter-spacing: 1px;
+}
+/* line 149, /Users/atsspare/Projects/personal/clients/katie-portfolio/less/freelancer.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/atsspare\/Projects\/personal\/clients\/katie-portfolio\/less\/freelancer\.less}line{font-family:\00003149}}
+.navbar .navbar-nav li a:focus {
+  outline: none;
+}
+/* line 156, /Users/atsspare/Projects/personal/clients/katie-portfolio/less/freelancer.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/atsspare\/Projects\/personal\/clients\/katie-portfolio\/less\/freelancer\.less}line{font-family:\00003156}}
+.navbar-default,
+.navbar-inverse {
+  border: none;
+}
+/* line 161, /Users/atsspare/Projects/personal/clients/katie-portfolio/less/freelancer.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/atsspare\/Projects\/personal\/clients\/katie-portfolio\/less\/freelancer\.less}line{font-family:\00003161}}
+section {
+  padding: 100px 0;
+}
+/* line 163, /Users/atsspare/Projects/personal/clients/katie-portfolio/less/freelancer.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/atsspare\/Projects\/personal\/clients\/katie-portfolio\/less\/freelancer\.less}line{font-family:\00003163}}
+section h2 {
+  margin: 0;
+  font-size: 3em;
+}
+/* line 169, /Users/atsspare/Projects/personal/clients/katie-portfolio/less/freelancer.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/atsspare\/Projects\/personal\/clients\/katie-portfolio\/less\/freelancer\.less}line{font-family:\00003169}}
+section.success {
+  background: #ff0000;
+  color: white;
+}
+@media (max-width: 767px) {
+  /* line 175, /Users/atsspare/Projects/personal/clients/katie-portfolio/less/freelancer.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/atsspare\/Projects\/personal\/clients\/katie-portfolio\/less\/freelancer\.less}line{font-family:\00003175}}
+  section {
+    padding: 75px 0;
+  }
+  /* line 178, /Users/atsspare/Projects/personal/clients/katie-portfolio/less/freelancer.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/atsspare\/Projects\/personal\/clients\/katie-portfolio\/less\/freelancer\.less}line{font-family:\00003178}}
+  section.first {
+    padding-top: 75px;
+  }
+}
+/* line 184, /Users/atsspare/Projects/personal/clients/katie-portfolio/less/freelancer.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/atsspare\/Projects\/personal\/clients\/katie-portfolio\/less\/freelancer\.less}line{font-family:\00003184}}
+#portfolio .portfolio-item {
+  margin: 0 0 15px;
+  right: 0;
+}
+/* line 187, /Users/atsspare/Projects/personal/clients/katie-portfolio/less/freelancer.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/atsspare\/Projects\/personal\/clients\/katie-portfolio\/less\/freelancer\.less}line{font-family:\00003187}}
+#portfolio .portfolio-item .portfolio-link {
+  display: block;
+  position: relative;
+  max-width: 400px;
+  margin: 0 auto;
+}
+/* line 192, /Users/atsspare/Projects/personal/clients/katie-portfolio/less/freelancer.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/atsspare\/Projects\/personal\/clients\/katie-portfolio\/less\/freelancer\.less}line{font-family:\00003192}}
+#portfolio .portfolio-item .portfolio-link .caption {
+  background: rgba(255, 0, 0, 0.9);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: all ease 0.5s;
+  -webkit-transition: all ease 0.5s;
+  -moz-transition: all ease 0.5s;
+}
+/* line 201, /Users/atsspare/Projects/personal/clients/katie-portfolio/less/freelancer.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/atsspare\/Projects\/personal\/clients\/katie-portfolio\/less\/freelancer\.less}line{font-family:\00003201}}
+#portfolio .portfolio-item .portfolio-link .caption:hover {
+  opacity: 1;
+}
+/* line 204, /Users/atsspare/Projects/personal/clients/katie-portfolio/less/freelancer.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/atsspare\/Projects\/personal\/clients\/katie-portfolio\/less\/freelancer\.less}line{font-family:\00003204}}
+#portfolio .portfolio-item .portfolio-link .caption .caption-content {
+  position: absolute;
+  width: 100%;
+  height: 20px;
+  font-size: 20px;
+  text-align: center;
+  top: 50%;
+  margin-top: -12px;
+  color: white;
+}
+/* line 213, /Users/atsspare/Projects/personal/clients/katie-portfolio/less/freelancer.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/atsspare\/Projects\/personal\/clients\/katie-portfolio\/less\/freelancer\.less}line{font-family:\00003213}}
+#portfolio .portfolio-item .portfolio-link .caption .caption-content i {
+  margin-top: -12px;
+}
+/* line 216, /Users/atsspare/Projects/personal/clients/katie-portfolio/less/freelancer.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/atsspare\/Projects\/personal\/clients\/katie-portfolio\/less\/freelancer\.less}line{font-family:\00003216}}
+#portfolio .portfolio-item .portfolio-link .caption .caption-content h3,
+#portfolio .portfolio-item .portfolio-link .caption .caption-content h4 {
+  margin: 0;
+}
+/* line 224, /Users/atsspare/Projects/personal/clients/katie-portfolio/less/freelancer.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/atsspare\/Projects\/personal\/clients\/katie-portfolio\/less\/freelancer\.less}line{font-family:\00003224}}
+#portfolio * {
+  z-index: 2;
+}
+@media (min-width: 767px) {
+  /* line 231, /Users/atsspare/Projects/personal/clients/katie-portfolio/less/freelancer.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/atsspare\/Projects\/personal\/clients\/katie-portfolio\/less\/freelancer\.less}line{font-family:\00003231}}
+  #portfolio .portfolio-item {
+    margin: 0 0 30px;
+  }
+}
+/* line 237, /Users/atsspare/Projects/personal/clients/katie-portfolio/less/freelancer.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/atsspare\/Projects\/personal\/clients\/katie-portfolio\/less\/freelancer\.less}line{font-family:\00003237}}
+.btn-outline {
+  color: white;
+  font-size: 20px;
+  border: solid 2px white;
+  background: transparent;
+  transition: all 0.3s ease-in-out;
+  margin-top: 15px;
+}
+/* line 244, /Users/atsspare/Projects/personal/clients/katie-portfolio/less/freelancer.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/atsspare\/Projects\/personal\/clients\/katie-portfolio\/less\/freelancer\.less}line{font-family:\00003244}}
+.btn-outline:hover,
+.btn-outline:focus,
+.btn-outline:active,
+.btn-outline.active {
+  color: #ff0000;
+  background: white;
+  border: solid 2px white;
+}
+/* line 254, /Users/atsspare/Projects/personal/clients/katie-portfolio/less/freelancer.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/atsspare\/Projects\/personal\/clients\/katie-portfolio\/less\/freelancer\.less}line{font-family:\00003254}}
+.floating-label-form-group {
+  position: relative;
+  margin-bottom: 0;
+  padding-bottom: 0.5em;
+  border-bottom: 1px solid #eeeeee;
+}
+/* line 259, /Users/atsspare/Projects/personal/clients/katie-portfolio/less/freelancer.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/atsspare\/Projects\/personal\/clients\/katie-portfolio\/less\/freelancer\.less}line{font-family:\00003259}}
+.floating-label-form-group input,
+.floating-label-form-group textarea {
+  z-index: 1;
+  position: relative;
+  padding-right: 0;
+  padding-left: 0;
+  border: none;
+  border-radius: 0;
+  font-size: 1.5em;
+  background: none;
+  box-shadow: none !important;
+  resize: none;
+}
+/* line 272, /Users/atsspare/Projects/personal/clients/katie-portfolio/less/freelancer.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/atsspare\/Projects\/personal\/clients\/katie-portfolio\/less\/freelancer\.less}line{font-family:\00003272}}
+.floating-label-form-group label {
+  display: block;
+  z-index: 0;
+  position: relative;
+  top: 2em;
+  margin: 0;
+  font-size: 0.85em;
+  line-height: 1.764705882em;
+  vertical-align: middle;
+  vertical-align: baseline;
+  opacity: 0;
+  -webkit-transition: top 0.3s ease,opacity 0.3s ease;
+  -moz-transition: top 0.3s ease,opacity 0.3s ease;
+  -ms-transition: top 0.3s ease,opacity 0.3s ease;
+  transition: top 0.3s ease,opacity 0.3s ease;
+}
+/* line 288, /Users/atsspare/Projects/personal/clients/katie-portfolio/less/freelancer.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/atsspare\/Projects\/personal\/clients\/katie-portfolio\/less\/freelancer\.less}line{font-family:\00003288}}
+.floating-label-form-group::not(:first-child) {
+  padding-left: 14px;
+  border-left: 1px solid #eeeeee;
+}
+/* line 295, /Users/atsspare/Projects/personal/clients/katie-portfolio/less/freelancer.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/atsspare\/Projects\/personal\/clients\/katie-portfolio\/less\/freelancer\.less}line{font-family:\00003295}}
+.floating-label-form-group-with-value label {
+  top: 0;
+  opacity: 1;
+}
+/* line 302, /Users/atsspare/Projects/personal/clients/katie-portfolio/less/freelancer.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/atsspare\/Projects\/personal\/clients\/katie-portfolio\/less\/freelancer\.less}line{font-family:\00003302}}
+.floating-label-form-group-with-focus label {
+  color: #ff0000;
+}
+/* line 307, /Users/atsspare/Projects/personal/clients/katie-portfolio/less/freelancer.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/atsspare\/Projects\/personal\/clients\/katie-portfolio\/less\/freelancer\.less}line{font-family:\00003307}}
+form .row:first-child .floating-label-form-group {
+  border-top: 1px solid #eeeeee;
+}
+/* line 311, /Users/atsspare/Projects/personal/clients/katie-portfolio/less/freelancer.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/atsspare\/Projects\/personal\/clients\/katie-portfolio\/less\/freelancer\.less}line{font-family:\00003311}}
+footer {
+  color: white;
+}
+/* line 313, /Users/atsspare/Projects/personal/clients/katie-portfolio/less/freelancer.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/atsspare\/Projects\/personal\/clients\/katie-portfolio\/less\/freelancer\.less}line{font-family:\00003313}}
+footer h3 {
+  margin-bottom: 30px;
+}
+/* line 316, /Users/atsspare/Projects/personal/clients/katie-portfolio/less/freelancer.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/atsspare\/Projects\/personal\/clients\/katie-portfolio\/less\/freelancer\.less}line{font-family:\00003316}}
+footer .footer-above {
+  padding-top: 50px;
+  background-color: #2c3e50;
+}
+/* line 320, /Users/atsspare/Projects/personal/clients/katie-portfolio/less/freelancer.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/atsspare\/Projects\/personal\/clients\/katie-portfolio\/less\/freelancer\.less}line{font-family:\00003320}}
+footer .footer-col {
+  margin-bottom: 50px;
+}
+/* line 323, /Users/atsspare/Projects/personal/clients/katie-portfolio/less/freelancer.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/atsspare\/Projects\/personal\/clients\/katie-portfolio\/less\/freelancer\.less}line{font-family:\00003323}}
+footer .footer-below {
+  padding: 25px 0;
+  background-color: #233140;
+}
+/* line 329, /Users/atsspare/Projects/personal/clients/katie-portfolio/less/freelancer.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/atsspare\/Projects\/personal\/clients\/katie-portfolio\/less\/freelancer\.less}line{font-family:\00003329}}
+.btn-social {
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  border: 2px solid white;
+  border-radius: 100%;
+  text-align: center;
+  font-size: 20px;
+  line-height: 45px;
+}
+/* line 340, /Users/atsspare/Projects/personal/clients/katie-portfolio/less/freelancer.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/atsspare\/Projects\/personal\/clients\/katie-portfolio\/less\/freelancer\.less}line{font-family:\00003340}}
+.btn:focus,
+.btn:active,
+.btn.active {
+  outline: none;
+}
+/* line 346, /Users/atsspare/Projects/personal/clients/katie-portfolio/less/freelancer.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/atsspare\/Projects\/personal\/clients\/katie-portfolio\/less\/freelancer\.less}line{font-family:\00003346}}
+.scroll-top {
+  position: fixed;
+  right: 2%;
+  bottom: 2%;
+  width: 50px;
+  height: 50px;
+  z-index: 1049;
+}
+/* line 353, /Users/atsspare/Projects/personal/clients/katie-portfolio/less/freelancer.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/atsspare\/Projects\/personal\/clients\/katie-portfolio\/less\/freelancer\.less}line{font-family:\00003353}}
+.scroll-top .btn {
+  font-size: 20px;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  line-height: 28px;
+}
+/* line 359, /Users/atsspare/Projects/personal/clients/katie-portfolio/less/freelancer.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/atsspare\/Projects\/personal\/clients\/katie-portfolio\/less\/freelancer\.less}line{font-family:\00003359}}
+.scroll-top .btn:focus {
+  outline: none;
+}
+/* line 366, /Users/atsspare/Projects/personal/clients/katie-portfolio/less/freelancer.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/atsspare\/Projects\/personal\/clients\/katie-portfolio\/less\/freelancer\.less}line{font-family:\00003366}}
+.portfolio-modal .modal-content {
+  border-radius: 0;
+  background-clip: border-box;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border: none;
+  min-height: 100%;
+  padding: 100px 0;
+  text-align: center;
+}
+/* line 375, /Users/atsspare/Projects/personal/clients/katie-portfolio/less/freelancer.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/atsspare\/Projects\/personal\/clients\/katie-portfolio\/less\/freelancer\.less}line{font-family:\00003375}}
+.portfolio-modal .modal-content h2 {
+  margin: 0;
+  font-size: 3em;
+}
+/* line 379, /Users/atsspare/Projects/personal/clients/katie-portfolio/less/freelancer.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/atsspare\/Projects\/personal\/clients\/katie-portfolio\/less\/freelancer\.less}line{font-family:\00003379}}
+.portfolio-modal .modal-content img {
+  margin-bottom: 30px;
+}
+/* line 382, /Users/atsspare/Projects/personal/clients/katie-portfolio/less/freelancer.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/atsspare\/Projects\/personal\/clients\/katie-portfolio\/less\/freelancer\.less}line{font-family:\00003382}}
+.portfolio-modal .modal-content .item-details {
+  margin: 30px 0;
+}
+/* line 386, /Users/atsspare/Projects/personal/clients/katie-portfolio/less/freelancer.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/atsspare\/Projects\/personal\/clients\/katie-portfolio\/less\/freelancer\.less}line{font-family:\00003386}}
+.portfolio-modal .close-modal {
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  background-color: transparent;
+  top: 25px;
+  right: 25px;
+  cursor: pointer;
+}
+/* line 394, /Users/atsspare/Projects/personal/clients/katie-portfolio/less/freelancer.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/atsspare\/Projects\/personal\/clients\/katie-portfolio\/less\/freelancer\.less}line{font-family:\00003394}}
+.portfolio-modal .close-modal:hover {
+  opacity: 0.3;
+}
+/* line 397, /Users/atsspare/Projects/personal/clients/katie-portfolio/less/freelancer.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/atsspare\/Projects\/personal\/clients\/katie-portfolio\/less\/freelancer\.less}line{font-family:\00003397}}
+.portfolio-modal .close-modal .lr {
+  height: 75px;
+  width: 1px;
+  margin-left: 35px;
+  background-color: #2c3e50;
+  transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  /* IE 9 */
+  -webkit-transform: rotate(45deg);
+  /* Safari and Chrome */
+  z-index: 1051;
+}
+/* line 408, /Users/atsspare/Projects/personal/clients/katie-portfolio/less/freelancer.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/atsspare\/Projects\/personal\/clients\/katie-portfolio\/less\/freelancer\.less}line{font-family:\00003408}}
+.portfolio-modal .close-modal .lr .rl {
+  height: 75px;
+  width: 1px;
+  background-color: #2c3e50;
+  transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  /* IE 9 */
+  -webkit-transform: rotate(90deg);
+  /* Safari and Chrome */
+  z-index: 1052;
+}
+/* line 421, /Users/atsspare/Projects/personal/clients/katie-portfolio/less/freelancer.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/atsspare\/Projects\/personal\/clients\/katie-portfolio\/less\/freelancer\.less}line{font-family:\00003421}}
+.portfolio-modal .modal-backdrop {
+  opacity: 0;
+  display: none;
+}
